@@ -12,7 +12,7 @@ Before you use this tool, ensure that all the files are in the same directory
 Ensure you have pip working on this machine, to verify you can just type in pip
 If that resulted in an error then we can install pip using the following command
 
-sudo apt install python3-pip
+```sudo apt install python3-pip```
 
 if you are presented with a prompt enter 'y' for yes
 
