@@ -5,10 +5,9 @@
 
 The objective for this project was to utlize the public api from Virus Total and parse any information you recieve reagaring the hash. Either is the hash is malicious or not, virus total cross references this hash on various platform. However for this project we only needed to check the results it presented on Fortinets platform.
 
-#--How-To-Use-This-Tool--*
+## How-To-Use-This-Tool
 
-Step 1:
--------
+###### Step 1:
 Before you use this tool, ensure that all the files are in the same directory
 Ensure you have pip working on this machine, to verify you can just type in pip
 If that resulted in an error then we can install pip using the following command
