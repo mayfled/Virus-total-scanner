@@ -7,7 +7,7 @@ The objective for this project was to utlize the public api from Virus Total and
 
 ## How To Use This Tool
 
-##### Step 1:
+#### Step 1:
 >Before you use this tool, ensure that all the files are in the same directory
 Ensure you have pip working on this machine, to verify you can just type in pip
 If that resulted in an error then we can install pip using the following command
