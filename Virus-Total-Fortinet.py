@@ -2,7 +2,7 @@
 Title: Virus-Total Hash Scanner
 Author: Naeem Patel
 Date: 2021-04-25
-Software Link:
+Software Link: https://github.com/mayfled/Virus-total-scanner
 ---------------------
 I have specified my api key for demonstration purposes.
 To ensure this script work accordingly please make sure that you enter 1 hash per line with no commas separating them
@@ -71,50 +71,3 @@ def results(line):
         time.sleep(30)
     print("\n",p)
 main()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# import requests
-# import time
-# from datetime import datetime
-# import json
-#
-# key = '94b6de98f669d378b49de1bb54f5904e865f6c971e5387a19801ac07d63f69d9'
-# url = 'https://www.virustotal.com/vtapi/v2/file/report'
-# now = datetime.now()
-#
-# def main():
-#     with open('sample_hash_input.txt', 'r') as f:
-#         line = f.read().splitlines()
-# for i in line:
-#     params = {'apikey': key , 'resource': i}
-#     response_url = requests.get(url, params=params)
-#     response_json = response_url.json()
-#     response_code = int(response_json.get('response_code'))
-#     if response_code == 0:
-#         print("There is no information for this on Virus Total: {}".format(i))
-#     elif response_code == 1:
-#         response_json = json.loads(response_url.content)
-#         hash = i
-#         positive = response_json['positives']
-#         results = response_json['scans']['Fortinet']['result']
-#         print("MD5 hash : {} | Detection Name: {} | Total Detected: {} | Scan Date: {}".format(i,results,positive,now.strftime("%Y-%m-%d %H:%M:%S")))
-#     else:
-#         print("There were no results found for the following hash in the database: {}".format(i))
-#     time.sleep(30)
-#
-
