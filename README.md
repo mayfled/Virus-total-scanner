@@ -16,14 +16,14 @@ If that resulted in an error then we can install pip using the following command
 
 *if you are presented with a prompt enter 'y' for yes*
 
-###### Step 2:
+### Step 2:
 >Now we want to install all the dependencies to do this enter the following command
 
 ```pip install -r requirements.txt```
 
 ***make sure you are in the directory where you downloaded all the files***
 
-###### Step 3:
+### Step 3:
 >Now we can run the file, to run the file we can enter the following command
 
 ```python3 Virus-Total-Fortinet.py -f <hash.txt-file>```
@@ -48,13 +48,13 @@ In this function we have an if statement to check if the hash exists in the data
 >To complete this project I utlized various technologies including Linux,python,MySQL and Flask
 
 
-###### Linux
+### Linux:
 >Linux was used to ensure that the command line interface was working accordingly
 
-###### Python
+### Python:
 >Python was used to create this tool
 
-###### MySQL, Flask, Django 
+### MySQL, Flask, Django: 
 >MySQL and Flask were used to create a web interface for this tool. Currently I'm working on the web interface for this tool. I'm utilizing https://pythonanywhere.com 
 to deploy this tool on to the web. I had used this tool before since I have experience working with Flask, the web interface will allow users to upload a text file
 where after it will execute the code and print the results back to the user also allowing them to download a copy of the results. 
