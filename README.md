@@ -66,7 +66,7 @@ where after it will execute the code and print the results back to the user also
 
 - tqdm==4.60.0
 - requests==2.25.1
-- prettytable
+- prettytable==0.7.2
 
 ***These dependencies must be installed prior to executing the code***
 
