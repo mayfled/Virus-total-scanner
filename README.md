@@ -36,6 +36,27 @@ To try the sample file we can write the following command on terminal
 
 *The results will be stored in the current directory under __results.txt__*
 
+### Installation Summary
+
+```
+git clone https://github.com/mayfled/Virus-total-scanner.git
+cd Virus-total-scanner
+pip install -r requirements.txt
+python3 Virus-Total-Fortinet.py -f <hash.txt>
+```
+
+### Usage Options
+
+```
+usage: Virus-Total-Fortinet.py [-h] -f FILE
+
+Verify if hash is malicious on Fortinet's Platform using Virus Total The results will be stored in the results.txt file in the current directory The results will be displayed once all hashes are scanned
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -f FILE, --file FILE  The text file you want to scan
+```
+
 ## Summary of Code
 
 >This code consists of 3 functions. The first function initializes the command line interface for the user.
