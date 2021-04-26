@@ -83,7 +83,11 @@ This was a very exciting project for me to work on. I have learned quite a lot w
 
 One of the many problems I encounred was, I wasn't able to scan multiple hashes at the same time since there was a rate limit for a public api user. My code would first start and after the first 4 hashes it would come to a stop. When investigating on the Virus Total website, I have come to learn that it can scan only 4 per minute. To over come this I put a sleep timer on my for loop to delay each iteration by 30 seconds so the code wouldn't come to a halt.
 
-Another Issue I had encountered 
+Another Issue I had encountered was the max daily quota. Again since I was using a free api I was only allowed to go a total of 500 request per day. Since building a code it would require various testing and 500 quota wouldn't be enough. I had to make multiple accounts to recieve new api keys so I can start with a fresh number of quota.
+
+Checking if the hash was found was another issue I faced. I had to ensure that the hash was located in the database, to verify I got the response code it presented to me with at each hash. When the response code came in as 0, it would mean the hash wasn't found in their database. Where as 1 would mean it was found.
+
+Finally working on the web interface, the current issue I am facing is how to take the output results from my python code and dynamically make a table on html. This task was proven rather difficult for me as my knowledge in Django is limited. Currently I have to figure out a way to process thorugh all the hashes and output the results to the webpage without having pythonanywhere break on me.
 
 
 
