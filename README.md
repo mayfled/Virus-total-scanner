@@ -16,27 +16,25 @@ If that resulted in an error then we can install pip using the following command
 
 ***if you are presented with a prompt enter 'y' for yes***
 
-Step 2:
--------
-Now we want to install all the dependencies to do this enter the following command
+###### Step 2:
+>Now we want to install all the dependencies to do this enter the following command
 
-pip install -r requirements.txt
+```pip install -r requirements.txt```
 
-*make sure you are in the directory where you downloaded all the files*
+***make sure you are in the directory where you downloaded all the files***
 
-Step 3:
--------
-Now we can run the file, to run the file we can enter the following command
+###### Step 3:
+>Now we can run the file, to run the file we can enter the following command
 
-python3 Virus-Total-Fortinet.py -f <hash.txt-file>
+```python3 Virus-Total-Fortinet.py -f <hash.txt-file>```
 
-*for demo I have included a sample file called 'sample_hash_input.txt' *
+***for demo I have included a sample file called sample_hash_input.txt***
 
 To try the sample file we can write the following command on terminal
 
-python3 Virus-Total-Fortinet.py -f sample_hash_input.txt
+```python3 Virus-Total-Fortinet.py -f sample_hash_input.txt```
 
-*The results will be stored in the current directory under 'results.txt' *
+*The results will be stored in the current directory under __results.txt__*
 
 *--Summary-of-Code--*
 
