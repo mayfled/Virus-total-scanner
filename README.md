@@ -1,7 +1,7 @@
 # Virus-total-scanner
 
 
-#--Objective--
+###### Objective
 
 The objective for this project was to utlize the public api from Virus Total and parse any information you recieve reagaring the hash. Either is the hash is malicious or not, virus total cross references this hash on various platform. However for this project we only needed to check the results it presented on Fortinets platform.
 
