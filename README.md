@@ -14,7 +14,7 @@ If that resulted in an error then we can install pip using the following command
 
 ```sudo apt install python3-pip```
 
-if you are presented with a prompt enter 'y' for yes
+***if you are presented with a prompt enter 'y' for yes***
 
 Step 2:
 -------
